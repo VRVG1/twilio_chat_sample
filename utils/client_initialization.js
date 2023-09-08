@@ -34,7 +34,7 @@ client.on("stateChanged", async (state) => {
       uniqueName: "Nombre clave del chat",
     });
     await res.join();
-    await res.add("yoezer");
+    await res.add("Nombre_del_usuario_con_el_que_se_va_a_conectar");
     await res.sendMessage("Hola mundo");
     // Si se desea salir de la conversacion
     // Es necesario usar el siguiente codigo
